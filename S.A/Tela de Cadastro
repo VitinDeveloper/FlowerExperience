@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Cadastro</title>
+
+</head>
+
+<body>
+
+    <div class="container"> <!-- Elementos do Formulário -->
+
+        <div class="header"> <!-- Titulo -->
+            <h2>Criar Conta</h2>
+        </div>
+
+        <form class="form" id="form"> <!-- inicio do formulário -->
+
+            <div class="form-control">
+                <label for="username" >Nome</label> <!-- label referente ao input -->
+                <input type="text" id="username">  <!-- id do input -->
+                <i><img class="img-success" src="success-icon.svg" alt=""></i> <!--  imagem de acerto -->
+                <i><img class="img-error" src="error-icon.svg" alt=""></i>     <!--  imagem de erro -->
+
+                <small>Error message</small>  <!-- menssagem de erro -->
+
+            </div>
+
+            <div class="form-control">
+                <label for="email" >Email</label> <!-- label referente ao input -->
+                <input type="email" id="email">  <!-- id do input -->
+                <i><img class="img-success" src="success-icon.svg" alt=""></i> <!--  imagem de acerto -->
+                <i><img class="img-error" src="error-icon.svg" alt=""></i>     <!--  imagem de erro -->
+
+                <small>Error message</small>  <!-- menssagem de erro -->
+
+            </div>
+
+            <div class="form-control">
+                <label for="password" >Senha</label>   <!-- label referente ao input -->
+                <input type="password" id="password">  <!-- id do input -->
+                <i><img class="img-success" src="success-icon.svg" alt=""></i> <!--  imagem de acerto -->
+                <i><img class="img-error" src="error-icon.svg" alt=""></i>     <!--  imagem de erro -->
+
+                <small>Error message</small>  <!-- menssagem de erro -->
+
+            </div>
+
+            <div class="form-control">
+                <label for="passwordtwo" >Confirme a Sua Senha</label>  <!-- label referente ao input -->
+                <input type="password" id="passwordtwo">                <!-- id do input -->
+                <i><img class="img-success" src="success-icon.svg" alt=""></i>  <!--  imagem de acerto -->
+                <i><img class="img-error" src="error-icon.svg" alt=""></i>      <!--  imagem de erro -->
+
+                <small>Error message</small>  <!-- menssagem de erro -->
+
+            </div>
+
+            <button type="submit">ENVIAR</button> <!-- botão de enviar -->
+
+
+        </form> <!-- fim do formulário -->
+
+    </div>
+
+    <script src="Script.js"></script>  
+
+
+</body>
+
+</html>
